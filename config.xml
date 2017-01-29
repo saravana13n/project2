@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.beindianbuyindian"
+        version   = "1.0.0">
+    <name>Be Indian Buy Indian</name>
+
+    <description>
+        Be Indian Buy Indian
+    </description>
+
+    <author href="be-indian-buy-indian.herokuapp.com" email="saravana13n@gmail.com">
+        saravana13n
+    </author>
+
+
+    <feature name="http://api.phonegap.com/1.0/device" />
+    <feature name="debug-server" required="true">
+       <param name="domain" value="http://debug.phonegap.com"/>
+       <param name="key" value="willoughby"/>
+    </feature>
+
+    <preference name="phonegap-version" value="3.6.3" />
+    <preference name="orientation"      value="default" />
+    <preference name="target-device"    value="universal" />
+    <preference name="fullscreen"       value="false" />
+    <preference name="webviewbounce"    value="false" />
+
+   <icon src="images/app-icon.png" />
+   <splash src="images/splash-screen.jpg"/>
+   
+
+    
+
+    <!-- content src="http://www.w3.org/2010/05/video/mediaevents.html" / -->
+</widget>
