@@ -27,7 +27,7 @@
     <preference name="webviewbounce"    value="false" />
 
    <icon src="images/app-icon.png" />
-   <splash src="images/splash-screen.png"/>
+   <splash src="images/splash_screen.png"/>
    <preference name="SplashScreenDelay" value="5000" />
 
     
