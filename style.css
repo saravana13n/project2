@@ -1,4 +1,22 @@
+    .ui-filterable{
+     margin-top:30px;
+     margin-bottom:15px;
+     }
+    .ui-listview{
+      margin-bottom:22px;
+    }
+     .ui-header .ui-title{ margin:0px;}
+     .ui-header .ui-title img{ max-width:100%;}
+     .ui-header .ui-title .ui-link{ display:inline-block;}
+    .ui-fixed-hidden {
+        position: fixed !important;
+    }
 
+     @media only screen and (max-width: 600px) {
+     .ui-filterable{
+      margin-top:15px;
+      }
+     }
 /* breakpoint at 1000px, don't span full page width, 80% is plenty' */
 @media all and (min-width:62.5em){
     .pageContainer { 
